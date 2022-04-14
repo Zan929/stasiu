@@ -1,0 +1,14 @@
+$background-color: blue;
+$buttonSize:48px;
+
+@mixin borderButton($padding) {
+    background-color: transparent;
+    border: 2px solid #fff;
+    min-height: 1.5em;
+    border-radius: 1.5em;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    padding:$padding;
+}
+*{box-sizing: border-box;}
