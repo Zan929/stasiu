@@ -1,5 +1,13 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+body {
+  background-image: url(/img/morze_zachod_slonca.jpg);
+  background-size: cover;
+  color: #1900ff;
+  border-style: solid;
+}
+
+body h1 {
+  color: aliceblue;
+  text-align: center;
+  font-family: fantasy;
 }
 /*# sourceMappingURL=style.css.map */

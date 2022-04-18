@@ -1,14 +1,17 @@
-$background-color: blue;
-$buttonSize:48px;
 
-@mixin borderButton($padding) {
-    background-color: transparent;
-    border: 2px solid #fff;
-    min-height: 1.5em;
-    border-radius: 1.5em;
-    color:white;
-    cursor:pointer;
-    display:inline-block;
-    padding:$padding;
+
+body{
+    
+    background-image: url(/img/morze_zachod_slonca.jpg);
+    background-size: cover ;
+    color: rgb(25, 0, 255);
+    border-style: solid ;
+  h1{color: aliceblue;
+    text-align: center;
+    font-family:fantasy;}
 }
-*{box-sizing: border-box;}
+
+  
+
+    
+
